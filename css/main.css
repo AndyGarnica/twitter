@@ -1,15 +1,9 @@
 * {
 	box-sizing: border-box;
-	font-family: "Lobster Two";
 }
 
 body {
 	padding-top: 70px;
-}
-.nav-bar{
-  background: #56CBF4;
-}
-.section {
 	height: 100vh;
 	background-image: url("../img/fondo.jpg");
 	background-repeat: no-repeat;
@@ -18,4 +12,7 @@ body {
 	position: relative;
 	width: 100%;
 	text-align: center;
+}
+.nav-bar{
+  background: #019bdb;
 }
