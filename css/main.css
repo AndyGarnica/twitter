@@ -3,16 +3,21 @@
 }
 
 body {
-	padding-top: 70px;
-	height: 100vh;
-	background-image: url("../img/fondo.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	width: 100%;
-	text-align: center;
+	padding-top: 100px;
 }
-.nav-bar{
-  background: #019bdb;
+
+.navbar-default {
+	background-color: #019bdb;
+}
+
+.navbar-red {
+	background-color: red;
+}
+
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+
+.tachado {
+	text-decoration: line-through;
 }
